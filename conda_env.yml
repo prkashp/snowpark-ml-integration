@@ -1,0 +1,13 @@
+name: pysnowpark-ml-integration
+channels:
+  - https://repo.anaconda.com/pkgs/snowflake
+  - nodefaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    # Snowflake
+    - snowflake-snowpark-python
+    - tensorflow-recommenders
+    - numpy
+    
